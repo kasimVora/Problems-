@@ -2,8 +2,9 @@ import 'dart:isolate';
 
 void main() {
 
-List l = ["d",3,"d",{"dd":"dd"},33.3];
-isolateExample();
+// List l = ["d",3,"d",{"dd":"dd"},33.3];
+// isolateExample();
+
 }
 
 
@@ -117,7 +118,7 @@ void findFirstMaxSecondMax() {
   fM = arr[0];
   sM = arr[1];
 
-  for(int i = 2;i<arr.length;i++){
+  for(int i = 0;i<arr.length;i++){
     if(arr[i]>fM){
       sM = fM;
       fM = arr[i];
